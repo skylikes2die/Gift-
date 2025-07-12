@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Do you want to play roblox with me?</title>
+
+  <!-- Pixel font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Do you want to play roblox with me?</h1>
+    <div class="buttons">
+      <button class="yes-button" onclick="handleYesClick()">Yes</button>
+      <button class="no-button" onclick="handleNoClick()">No</button>
+    </div>
+    <div class="gif_container">
+      <img src="https://media.giphy.com/media/i7vpymS7uRIIvPUUlq/giphy.gif" alt="Cute GIF" />
+    </div>
+  </div>
+
+  <!-- Horror overlay -->
+  <div id="jumpscareOverlay">
+    <p id="horrorText">...</p>
+
+<audio id="backgroundMusic" src="your_intro_music.mp3" autoplay loop></audio>
+<audio id="screamSound" src="scream.mp3" preload="auto"></audio>
+<audio id="stingSound" src="sting.mp3" preload="auto"></audio>
+<audio id="staticSound" src="static.mp3" preload="auto"></audio>
+<audio id="horrorMusic" src="horror_theme.mp3" preload="auto" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
